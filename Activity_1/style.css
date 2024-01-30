@@ -1,0 +1,379 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+.img{
+    width: 100%;
+}
+body{
+    background-color: #010101;
+    color: white;
+}
+.navbar{
+    background-color: #010101 ;
+    padding: 10px 20%;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: gray;
+    font-family: Quicksand;
+}
+a:hover{
+    border-bottom: 2px #880808 solid;
+    color: #880808;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #880808;
+    font-family: Quicksand;
+    font-weight: 300px;
+    font-size: 50px;
+}
+.contact{
+    background-color: #880808;
+    border: none;
+    padding: 10px 30px;
+    font-family: Quicksand;
+    color:gray;
+    font-weight: bold;
+}
+.contact:hover{
+    background-color: gray;
+    font-family: Quicksand;
+    color: #880808;
+}
+.one{
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 200px 110px 200px;
+}
+.carlos{
+    margin-left: 0;
+    width: 400px;
+    margin: 100px 0 100px 50px;
+    border-radius: 30px;
+}
+.carlo{
+    width: 400px;
+    margin: 100px 50px 100px 0px;
+    border-radius: 30px;
+}
+.i{
+    font-size: 70px;
+    font-family: syncopate;
+    font-weight: bold;
+    color: gray;
+}
+.j{
+    font-size: 100px;
+    font-family: syncopate;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #333;
+}
+.contactx{
+    background-color: #880808;
+    border: none;
+    padding: 10px 30px;
+    font-family: Quicksand;
+    color:gray;
+    font-weight: bold;
+}
+.contactx:hover{
+    background-color: gray;
+    font-family: Quicksand;
+    color: #880808;
+}
+.period{
+    font-size: 100px;
+    color: #880808;
+}
+.infor{
+    color: #fff;
+    width: 550px;
+}
+.k{
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+}
+.k, .l{
+    font-family: Quicksand;
+}
+.l{
+    padding: 10px 0px;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+}
+.col{
+    color: gray;
+    font-family: Quicksand;
+}
+.ccc{
+    color: #333;
+    font-family: Quicksand;
+}
+.informa{
+ padding-bottom: 15px;
+}
+.infor{
+    line-height: 1.6;
+}
+.contain{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.contactme{
+    color: gray;
+    font-family: Quicksand;
+    font-size: 60px;
+    text-align: center;
+}
+.cm{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cm div{
+    padding: 40px;
+    background-color: #050505;
+    margin: 100px 50px;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    color: gray;
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 8px 24px;
+    line-height: 1.9;
+    font-family: quicksand ;
+    border-radius: 20px;
+}
+@media (max-width:1640px) {
+    .j{
+        font-size: 80px;
+    }
+    .i{
+        font-size: 70px;
+    }
+    .one{
+        padding: 60px 100px;
+    }
+    .info{
+        width: 800px;
+    }
+}
+@media (max-width:1560px){
+    .one{
+        margin-right: 90px;
+    }
+}
+@media (max-width:1016px){
+    .one{
+        padding: 80px 80px 110px 80px;
+    }
+    .carlo{
+        padding-left: 10px;
+        margin-right: 5px;
+        margin-left: 32px;
+    }
+    .i{
+        font-size: 50px;
+    }
+    .j{
+        font-size: 80px;
+    }
+    .period{
+        font-size: 80px;
+    }
+}
+@media (max-width:909px){
+    .navbar{
+        padding-bottom: 0px;
+        padding: 10px 100px;
+    }
+    .one{
+        display: grid;
+        padding: 0;
+    }
+    .carlo{
+     margin-top: 50px;
+     margin-left: 230px;
+     margin-bottom: 0px;
+    }
+    .i{
+        padding-left: 80px;
+    }
+    .j{
+        padding-left: 80px;
+    }
+    .contactx{
+        margin-left: 80px;
+    }
+}
+@media (max-width:795px){
+    .navbar{
+        padding: 10px 50px;
+    }
+    .i{
+        font-size: 40px;
+        padding-left: 135px;
+    }
+    .j{
+        font-size: 70px;
+        padding-left: 135px;
+    }
+    .contactx{
+        margin-left: 135px;
+    }
+}
+@media (max-width:686px){
+    .body{
+        width: 686px;
+    }
+    .navbar{
+        width: 646px;
+        padding: 10px 20px;
+    }
+    .one{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+    .info{
+        position: absolute;
+        margin-top: 800px;
+    }
+    .infor{
+        width: 500px;
+        margin-top: 800px;
+        position: absolute;
+        padding-left: 10px;
+    }
+    
+    .picture{
+        width: 686px;
+        margin-right: 0;
+    }
+    .carlo{
+        width: 350px;
+        margin: 20px 160px;
+        position: relative;
+    }
+    .carlos{
+        position: relative;
+        margin: 10px 80px 10px 145px;
+    }
+    .i{
+        font-size: 40px;
+        padding-left: 140px;
+        margin-top: 0px;
+    }
+    .j{
+        font-size: 60px;
+        padding-left: 140px;
+        margin-right: 0;
+        align-content: center;
+    }
+    
+    .contactx{
+        margin-left: 140px;
+    }
+    .contactme{
+        width: 686px;
+    }
+    .cm{
+        display: grid;
+        justify-content: center;
+        width: 686px;
+    }
+    .cm div{
+    padding: 40px;
+    background-color: #050505;
+    margin: 25px 50px;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    color: gray;
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 8px 24px;
+    line-height: 1.9;
+    font-family: quicksand ;
+    border-radius: 20px;
+    }
+}
+@media (max-width:605px){
+    .contact{
+        display: none;
+    }
+    .logo{
+        margin-left: 260px;
+    }
+    .container{
+        display: grid;
+        padding: 0;
+        position: absolute;
+    }
+    ul{
+        position: absolute;
+        padding-left: 70px;
+        padding-top: 10px;
+    }
+    .carlo{
+        padding-top: 100px;
+    }
+}
+@media (max-width:412px){
+    .navbar{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        margin-left:170px;
+        font-size: 35px;
+    }
+    ul{
+        padding-left: 25px;
+    }
+    a{
+        font-size: 12px;
+    }
+    .carlo{
+        margin-left:260px;
+        margin-top: 30px;
+    }
+    .i{
+        font-size: 30px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .j{
+        font-size: 40px;
+        margin-left: 90px;
+    }
+    .period{
+        font-size: 40px;
+    }
+    .contactx{
+        margin-left: 270px;
+    }
+    
+    
+}
